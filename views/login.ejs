@@ -1,0 +1,27 @@
+<% include partials/header.ejs%>
+<% include partials/navbar.ejs%>
+
+<div class="container">
+	<div class="row">
+		<div class="reduce_width">
+			<h2 style="text-align: center;">Login</h2>
+			<form action="/login" method="POST">
+
+				<div class="form-group">
+					<input class="form-control" type="text" name="username" placeholder="Email">
+				</div>
+
+				<div class="form-group">
+					<input class="form-control" type="password" name="password" placeholder="Password">
+				</div>
+				
+				<div class="form-group">
+					<button class="btn btn-lg btn-primary btn-default btn-block" type="submit">Login</button>
+				</div>
+			</form>
+			<a href="/campgrounds">Back</a>
+		</div>
+	</div>
+</div>
+
+<% include partials/footer.ejs %>

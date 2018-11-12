@@ -1,0 +1,94 @@
+.thumbnail img {
+	width : 100%;
+}
+
+.thumbnail {
+	padding : 0;
+}
+
+.thumbnail .caption-full {
+	padding : 9px;
+}
+
+#delete-form {
+	display : inline;
+}
+
+@media only screen and (min-width: 600px) {
+	.reduce_width {
+		margin: 25px auto;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.reduce_width {
+		margin: 25px auto;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.reduce_width {
+		margin: 25px auto;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.reduce_width {
+		width: 30%;
+		margin: 25px auto;
+	}
+	.thumbnail .passport{
+		height: 200px;
+	}
+
+	.thumbnail .image_size {
+		height: 635px;
+	}
+}
+
+.thumbnail img {
+	width : 100%;
+}
+
+.thumbnail {
+	padding : 0;
+}
+
+.thumbnail .caption-full {
+	padding : 9px;
+}
+
+#delete-form {
+	display: inline;
+}
+
+.border {
+	border : 1px solid #e3ebed;
+	padding: 5px;
+}
+
+.border h4 {
+	text-decoration: underline;
+}
+
+#wrap {
+	background-image : url("../landing_image.jpg");
+	background-position : center;
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+	background-size : cover;
+}
+
+.center_container {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 80vh;
+}
+
+.heading {
+	text-decoration: underline;
+	margin-bottom : 0px; 
+}

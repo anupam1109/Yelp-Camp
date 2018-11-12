@@ -1,0 +1,47 @@
+<% include partials/header.ejs%>
+<% include partials/navbar.ejs%>
+
+<div class="container">
+	<div class="row">
+		<div class="reduce_width">
+			<h2 style="text-align: center;">Register</h2>
+			<form action="/register" method="POST">
+				<div class="form-group">
+					<input class="form-control" type="email" required name="username" placeholder="Email">
+				</div>
+
+				<div class="form-group">
+					<input class="form-control" type="text" name="nickname" placeholder="Nickname">
+				</div>
+
+				<div class="form-group">
+					<input class="form-control" type="password" minlength="4" name="password" placeholder="Password">
+				</div>
+
+				<div class="form-group">
+					<input type="password" name="confirm" value="" placeholder="Confirm Password" class="form-control"/>
+				</div>				
+
+				<div class="form-group">
+					<button class="btn btn-lg btn-primary btn-default btn-block" type="submit">Register</button>
+				</div>
+			</form>
+			<a href="/photos">Back</a>
+		</div>
+	</div>
+</div>
+
+
+<% include partials/footer.ejs %>
+
+<!-- <% include partials/header.ejs%>
+<% include partials/navbar.ejs%>
+
+<form action="/register" method="POST">
+	<input type="text" name="username" placeholder="Username">
+	<input type="password" name="password" plcaeholder="Password">
+	<button>Sign Up</button>
+</form>
+
+
+<% include partials/footer.ejs %> -->
